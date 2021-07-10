@@ -6,7 +6,7 @@
 
 ### Preview :
 
-<img src="Weather.PNG" width='450' height='500'>
+<img src="Weather.png" width='450' height='500'>
 
 <p>This weather finder website is built using html, css and JavaScript. Using this we can get current weather of our location and also we can search the weather by city name. I have used openweathermap api to get the data and gsap js plugin for animation. </p>
 
