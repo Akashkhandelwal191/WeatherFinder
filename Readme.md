@@ -14,7 +14,11 @@
 - [openweathermap api](https://openweathermap.org/api)
 - [GSAP plugin](https://greensock.com/gsap/)
 
-> Click here for demo : [Weather Finder](https://pm0824.github.io/JavaScript-Weather-Finder/)
+> Click here for demo : [Weather Finder](https://akashkhandelwal191.github.io/WeatherFinder/)
+
+
+Follow me on Instagram : [Click here](https://www.instagram.com/)
+
 
 
 
