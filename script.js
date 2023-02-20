@@ -45,7 +45,7 @@ var weather = {
 };
 
 // API KEY
-var key = "b38fb1cc60358434046217d938003adf";
+var key = "1ee020e53372311cc5131630c27b7427";
 
 // CHECK IF BROWSER SUPPORTS GEOLOCATION
 if('geolocation' in navigator){
@@ -65,7 +65,7 @@ function setPosition(position){
 }
 
 function getWeather(latitude, longitude){
-    fetch(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=metric`)
         .then(response => response.json())
         .then(function(data){
             console.log(data);
@@ -82,9 +82,10 @@ function getWeather(latitude, longitude){
 
 //Get weather using city name entered by user
 button.addEventListener('click', function(name){
-fetch(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&appid=${key}`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&appid=${key}`)
 .then(response => response.json())
 .then(data => {
+    console.log(data);
     var city= data.name;
     var country= data.sys.country;
     var temp=data.main.temp;
