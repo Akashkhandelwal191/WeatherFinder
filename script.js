@@ -105,3 +105,7 @@ temperature.addEventListener('click',function(){
     console.log("toggle temp");
     weather.toggle_temperature();
 })
+
+//toggle issues 
+console.log('Hello this is Akash Khandelwal');
+console.log("Hello this is Sky Khandelwal");
